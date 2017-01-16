@@ -1,7 +1,50 @@
+/** {
+	background-color: rgba(0, 0, 0, .1);
+}*/
+
 body {
-	/*background-color: black;*/
+	background-color: #00334b;
+	color: #fff;
 }
 
 .container {
 	max-width: 900px;
+	margin: 0px auto;
+}
+
+.h1 {
+	text-align: center;
+}
+
+.task-list {
+	margin: 5px 0;
+}
+
+input .task-item {
+	border-radius: 3px;
+	padding: 10px;
+}
+
+input[type=text], input[type=date] {
+	display: block;
+	width: 100%;
+}
+
+button {
+	display: inline-block;
+}
+
+.task-item {
+	color: #333;
+	background: #fff;
+	padding: 10px;
+	padding-bottom: 2px;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+	cursor: pointer;
+	transition: background .3s;
+}
+
+.task-item:hover {
+	background: #ddd;
 }
